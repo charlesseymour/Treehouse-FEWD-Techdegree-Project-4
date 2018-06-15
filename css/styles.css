@@ -1,0 +1,22 @@
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;*/
+}
+
+.gallery img {
+  /*margin: 10px;*/
+}
