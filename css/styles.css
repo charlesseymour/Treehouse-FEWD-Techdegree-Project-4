@@ -10,8 +10,10 @@ input {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, 200px);
   grid-gap: 30px;
+  align-items: center;
+  justify-content: center;
   /*display: flex;
   flex-wrap: wrap;
   justify-content: space-around;*/
